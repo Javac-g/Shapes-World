@@ -7,5 +7,6 @@ public  abstact class Shape{
 	protected int evolution;
 	protected Shape couple;
 	protected int funds;
+	protected long healt_point;
 
 }
