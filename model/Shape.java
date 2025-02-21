@@ -8,5 +8,6 @@ public  abstact class Shape{
 	protected Shape couple;
 	protected int funds;
 	protected long healt_point;
+	protected Passport passport;
 
 }
