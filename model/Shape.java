@@ -9,5 +9,12 @@ public  abstact class Shape{
 	protected int funds;
 	protected long healt_point;
 	protected Passport passport;
+	protected boolean live;
+	
+	
+	
+	
+	
+	
 
 }
