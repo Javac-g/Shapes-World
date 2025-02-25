@@ -1,13 +1,17 @@
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 public class Square extends Shape{
     private String name;
     private Boolean single;
     private Type type; // please add angles count into constructor for each shape type like Type.triangle(3)
-    private Set<Talent> talents = new HashSet<>();
+    private Set <Talent> talents = new HashSet <>();
+    private Set<Shape> connection = new HashSet<>();
     private int evolution;
     private Shape couple;
-    private int funds;
+    private long funds;
     private long healt_point;
     private Passport passport;
     private boolean live;
@@ -16,6 +20,7 @@ public class Square extends Shape{
         this.name = name;
         this.type = type;
         this.evolution = evolution;
+        this.funds = 5000;
     }
 
     public String getName() {
@@ -66,7 +71,7 @@ public class Square extends Shape{
         this.couple = couple;
     }
 
-    public int getFunds() {
+    public long getFunds() {
         return funds;
     }
 
