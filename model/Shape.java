@@ -16,4 +16,5 @@ public  abstract class Shape{
 
 
     public abstract boolean Equals(Object object);
+    public abstract int hashCode();
 }
